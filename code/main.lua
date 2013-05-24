@@ -1,4 +1,26 @@
-
+-- ------------------------------------------------------------------------- --
+-- mqtt_test.lua
+-- ~~~~~~~~~~~~~
+-- Please do not remove the following notices.
+-- Copyright (c) 2011-2012 by Geekscape Pty. Ltd.
+-- Documentation: http://http://geekscape.github.com/mqtt_lua
+-- License: AGPLv3 http://geekscape.org/static/aiko_license.html
+-- Version: 0.2 2012-06-01
+--
+-- Description
+-- ~~~~~~~~~~~
+-- Repetitively publishes MQTT messages on the topic_p,
+-- until the "quit" message is received on the topic_s.
+--
+-- References
+-- ~~~~~~~~~~
+-- Lapp Framework: Lua command line parsing
+--   http://lua-users.org/wiki/LappFramework
+--
+-- ToDo
+-- ~~~~
+-- - On failure, automatically reconnect to MQTT server.
+-- ------------------------------------------------------------------------- --
 json = require "json"
 
 function callback(
