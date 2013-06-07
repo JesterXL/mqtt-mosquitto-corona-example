@@ -3,4 +3,6 @@ mqtt-mosquitto-corona-example
 
 MQTT Mosquitto Corona SDK Example
 
-<iframe width="640" height="360" src="http://www.youtube.com/embed/AymciJejQh0" frameborder="0" allowfullscreen></iframe>
+Real-time communication between Corona applications.
+
+[![ScreenShot](https://raw.github.com/JesterXL/mqtt-mosquitto-corona-example/master/screenshot-youtube.jpg)](http://youtu.be/AymciJejQh0)
